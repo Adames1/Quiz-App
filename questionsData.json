@@ -1,0 +1,112 @@
+[
+  {
+    "question": "¿Cuál es la capital de España?",
+    "answers": ["Madrid", "Barcelona", "Sevilla", "Valencia"],
+    "correctAnswer": "Madrid"
+  },
+  {
+    "question": "¿Quién pintó La Mona Lisa?",
+    "answers": [
+      "Leonardo da Vinci",
+      "Pablo Picasso",
+      "Vincent van Gogh",
+      "Michelangelo"
+    ],
+    "correctAnswer": "Leonardo da Vinci"
+  },
+  {
+    "question": "¿Cuál es el océano más grande del mundo?",
+    "answers": [
+      "Océano Pacífico",
+      "Océano Atlántico",
+      "Océano Índico",
+      "Océano Ártico"
+    ],
+    "correctAnswer": "Océano Pacífico"
+  },
+  {
+    "question": "¿Cuál es la montaña más alta del mundo?",
+    "answers": [
+      "Monte Everest",
+      "Monte Kilimanjaro",
+      "Monte McKinley",
+      "Monte Aconcagua"
+    ],
+    "correctAnswer": "Monte Everest"
+  },
+  {
+    "question": "¿Quién escribió 'Don Quijote de la Mancha'?",
+    "answers": [
+      "Miguel de Cervantes",
+      "Gabriel García Márquez",
+      "Jorge Luis Borges",
+      "William Shakespeare"
+    ],
+    "correctAnswer": "Miguel de Cervantes"
+  },
+  {
+    "question": "¿Cuál es el país más grande del mundo en términos de área terrestre?",
+    "answers": ["Rusia", "Canadá", "Estados Unidos", "China"],
+    "correctAnswer": "Rusia"
+  },
+  {
+    "question": "¿Cuál es el metal más abundante en la corteza terrestre?",
+    "answers": ["Aluminio", "Hierro", "Cobre", "Plomo"],
+    "correctAnswer": "Aluminio"
+  },
+  {
+    "question": "¿Quién fue el primer presidente de Estados Unidos?",
+    "answers": [
+      "George Washington",
+      "Thomas Jefferson",
+      "Abraham Lincoln",
+      "John Adams"
+    ],
+    "correctAnswer": "George Washington"
+  },
+  {
+    "question": "¿Cuál es la capital de Japón?",
+    "answers": ["Tokio", "Kioto", "Osaka", "Hiroshima"],
+    "correctAnswer": "Tokio"
+  },
+  {
+    "question": "¿Quién fue el primer hombre en pisar la luna?",
+    "answers": ["Neil Armstrong", "Buzz Aldrin", "Yuri Gagarin", "John Glenn"],
+    "correctAnswer": "Neil Armstrong"
+  },
+  {
+    "question": "¿Cuál es el planeta más grande del sistema solar?",
+    "answers": ["Júpiter", "Saturno", "Urano", "Neptuno"],
+    "correctAnswer": "Júpiter"
+  },
+  {
+    "question": "¿En qué año comenzó la Primera Guerra Mundial?",
+    "answers": ["1914", "1918", "1939", "1945"],
+    "correctAnswer": "1914"
+  },
+  {
+    "question": "¿Cuál es la moneda oficial de Reino Unido?",
+    "answers": [
+      "Libra esterlina",
+      "Euro",
+      "Dólar estadounidense",
+      "Yen japonés"
+    ],
+    "correctAnswer": "Libra esterlina"
+  },
+  {
+    "question": "¿Cuál es la obra más famosa de William Shakespeare?",
+    "answers": [
+      "Romeo y Julieta",
+      "Hamlet",
+      "Macbeth",
+      "El sueño de una noche de verano"
+    ],
+    "correctAnswer": "Romeo y Julieta"
+  },
+  {
+    "question": "¿Cuál es el río más largo del mundo?",
+    "answers": ["Amazonas", "Nilo", "Yangtsé", "Misisipi"],
+    "correctAnswer": "Amazonas"
+  }
+]

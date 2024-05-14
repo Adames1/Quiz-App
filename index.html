@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quizz App</title>
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div id="start-screen">
+            <div class="data">
+                <h1 class="title">BIENVENIDO A QUIZ APP</h1>
+                <p class="des">Demuestra tus conocimientos</p>
+            </div>
+            <button type="button" id="btn-start">
+                Iniciar
+                <i class="uil uil-play"></i>
+            </button>
+        </div>
+
+        <main id="main" class="content-main">
+            <div class="container-questionsAnswer">
+                <h2>ELIGE LA RESPUESTA CORRECTA</h2>
+                <div class="content-question">
+                    <h3 class="questions">¿Cuál es la capital de España?</h3>
+                    <div class="content-answers">
+                        <button type="button" class="btn-answers">
+                            <span class="literal">A</span>
+                            <span class="answer">Madrid</span>
+                        </button>
+                        <button type="button" class="btn-answers">
+                            <span class="literal">B</span>
+                            <span class="answer">Barcelona</span>
+                        </button>
+                        <button type="button" class="btn-answers">
+                            <span class="literal">C</span>
+                            <span class="answer">Sevilla</span>
+                        </button>
+                        <button type="button" class="btn-answers">
+                            <span class="literal">D</span>
+                            <span class="answer">Valencia</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="resultQuestions">
+                <h2>GRACIAS POR PARTICIPAR!</h2>
+                <div>
+                    <span class="correct-answers">
+                        Respuestas correctas: 5
+                    </span>
+                    <span class="wrong-answers">
+                        Respuestas incorrectas: 5
+                    </span>
+                </div>
+                <button type="button" id="btn-restart">
+                    Empezar
+                    <i class="uil uil-redo"></i>
+                </button>
+            </div>
+        </main>
+    </div>
+
+    <script type="module" src="index.js"></script>
+</body>
+
+</html>
