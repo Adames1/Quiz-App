@@ -19,11 +19,11 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 
 .container {
-  min-width: 1000px;
+  max-width: 1000px;
   margin: 0 auto;
 }
 
@@ -243,6 +243,11 @@ body {
   .content-answers .btn-answers {
     font-size: 1.75rem;
   }
+
+  .resultQuestions h2 {
+    font-size: 1.75rem;
+    text-align: center;
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -300,5 +305,9 @@ body {
 
   .content-answers .btn-answers {
     font-size: 1.3rem;
+  }
+
+  .resultQuestions h2 {
+    font-size: 1.45rem;
   }
 }
