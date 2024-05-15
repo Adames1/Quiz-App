@@ -2,6 +2,7 @@ import { questionRandom } from "./quiz.js";
 import { app } from "../index.js";
 
 let currentQuestion = null;
+const askedQuestion = [];
 let questionCount = 0;
 let correctAnswerCount = 0;
 let incorrectAnswerCount = 0;
@@ -48,7 +49,18 @@ function showResultScreen() {
 }
 
 export function displayQuestionsAnswers() {
-  currentQuestion = questionRandom();
+  let nextQuestion;
+
+  do {
+    nextQuestion = questionRandom();
+  } while (
+    askedQuestion.some(
+      (question) => question.question === nextQuestion.question
+    )
+  );
+
+  currentQuestion = nextQuestion;
+  askedQuestion.push(nextQuestion);
 
   app.questions.textContent = currentQuestion.question;
   app.contentAnswers.innerHTML = "";
