@@ -255,18 +255,50 @@ body {
   }
 
   .container-questionsAnswer h2 {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
   }
 
   .container-questionsAnswer .questions {
     font-size: 1.1rem;
-    width: max-content;
+    max-width: 340px;
+    padding: 10px;
   }
 
   .container-questionsAnswer .questions::after {
     top: -50%;
-    left: -10px;
-    font-size: 8rem;
+    left: -20px;
+    font-size: 5rem;
     transform: translateY(-10%);
+  }
+
+  .content-answers .btn-answers {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  #start-screen .data .title {
+    font-size: 1.5rem;
+  }
+
+  #start-screen .data .des {
+    font-size: 1.1rem;
+  }
+
+  .container-questionsAnswer h2 {
+    font-size: 1.2rem;
+  }
+
+  .container-questionsAnswer .questions {
+    max-width: 280px;
+    padding: 15px;
+  }
+
+  .container-questionsAnswer .questions::after {
+    display: none;
+  }
+
+  .content-answers .btn-answers {
+    font-size: 1.3rem;
   }
 }
